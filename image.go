@@ -14,9 +14,9 @@ import (
 	"unsafe"
 
 	vk "github.com/goki/vulkan"
-	"github.com/tomas-mraz/base/iox/imagex"
-	"github.com/tomas-mraz/base/slicesx"
-	"github.com/tomas-mraz/enums"
+	"github.com/tomas-mraz/vgpu/base/iox/imagex"
+	"github.com/tomas-mraz/vgpu/base/slicesx"
+	"github.com/tomas-mraz/vgpu/enums"
 	"github.com/tomas-mraz/vgpu/math32"
 )
 
