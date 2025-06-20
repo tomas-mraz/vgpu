@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/tomas-mraz/base/indent"
+	"github.com/tomas-mraz/vgpu/base/indent"
 	"github.com/tomas-mraz/vgpu/szalloc"
 
 	vk "github.com/goki/vulkan"
