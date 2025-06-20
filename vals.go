@@ -11,7 +11,7 @@ import (
 	"unsafe"
 
 	vk "github.com/goki/vulkan"
-	"github.com/tomas-mraz/enums"
+	"github.com/tomas-mraz/vgpu/enums"
 	"github.com/tomas-mraz/vgpu/math32"
 	"github.com/tomas-mraz/vgpu/szalloc"
 )

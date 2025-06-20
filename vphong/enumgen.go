@@ -3,7 +3,7 @@
 package vphong
 
 import (
-	"github.com/tomas-mraz/enums"
+	"github.com/tomas-mraz/vgpu/enums"
 )
 
 var _SetsValues = []Sets{0, 1, 2, 3}

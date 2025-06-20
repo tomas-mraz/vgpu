@@ -17,7 +17,7 @@ import (
 )
 
 func init() {
-	// must lock main thread for gpu!
+	// must lock the main thread for gpu!
 	runtime.LockOSThread()
 }
 
