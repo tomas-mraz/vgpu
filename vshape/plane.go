@@ -5,7 +5,7 @@
 package vshape
 
 import (
-	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 // Plane is a flat 2D plane, which can be oriented along any

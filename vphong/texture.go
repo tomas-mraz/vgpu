@@ -10,8 +10,8 @@ import (
 	"log"
 	"log/slog"
 
-	"github.com/tomas-mraz/math32"
 	"github.com/tomas-mraz/vgpu"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 // Texture has texture image -- stored as image.RGBA for GPU compatibility

@@ -4,7 +4,7 @@
 
 package main
 
-import "github.com/tomas-mraz/math32"
+import "github.com/tomas-mraz/vgpu/math32"
 
 //gosl:hlsl basic
 // #include "fastexp.hlsl"

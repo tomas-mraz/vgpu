@@ -4,7 +4,7 @@
 
 package sltype
 
-import "github.com/tomas-mraz/math32"
+import "github.com/tomas-mraz/vgpu/math32"
 
 // Int is identical to an int32
 type Int = int32

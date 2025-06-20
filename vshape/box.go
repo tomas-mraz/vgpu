@@ -4,7 +4,7 @@
 
 package vshape
 
-import "github.com/tomas-mraz/math32"
+import "github.com/tomas-mraz/vgpu/math32"
 
 // Box is a rectangular-shaped solid (cuboid)
 type Box struct {

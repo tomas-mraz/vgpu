@@ -17,7 +17,7 @@ import (
 	"github.com/tomas-mraz/base/iox/imagex"
 	"github.com/tomas-mraz/base/slicesx"
 	"github.com/tomas-mraz/enums"
-	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 // SRGBToLinearComp converts an sRGB rgb component to linear space (removes gamma).

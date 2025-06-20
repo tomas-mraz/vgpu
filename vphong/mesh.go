@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tomas-mraz/math32"
 	"github.com/tomas-mraz/vgpu"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 // Mesh records the number of elements in an indexed triangle mesh,

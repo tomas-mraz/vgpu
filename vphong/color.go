@@ -9,7 +9,7 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 // Colors are the material colors with padding for direct uploading to shader

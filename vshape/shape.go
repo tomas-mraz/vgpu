@@ -4,7 +4,7 @@
 
 package vshape
 
-import "github.com/tomas-mraz/math32"
+import "github.com/tomas-mraz/vgpu/math32"
 
 // Shape is an interface for all shape-constructing elements
 type Shape interface {

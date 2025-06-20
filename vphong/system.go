@@ -9,8 +9,8 @@ import (
 	"unsafe"
 
 	vk "github.com/goki/vulkan"
-	"github.com/tomas-mraz/math32"
 	"github.com/tomas-mraz/vgpu"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 //go:embed shaders/*.spv

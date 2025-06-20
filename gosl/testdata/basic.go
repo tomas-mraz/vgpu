@@ -3,8 +3,8 @@ package test
 import (
 	"math"
 
-	"github.com/tomas-mraz/math32"
 	"github.com/tomas-mraz/vgpu/gosl/slbool"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 //gosl:endhlsl basic

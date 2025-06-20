@@ -12,9 +12,9 @@ import (
 	"log/slog"
 
 	"github.com/tomas-mraz/base/timer"
-	"github.com/tomas-mraz/math32"
 	"github.com/tomas-mraz/vgpu"
 	"github.com/tomas-mraz/vgpu/gosl/sltype"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 // note: standard one to use is plain "gosl" which should be go install'd

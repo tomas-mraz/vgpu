@@ -7,7 +7,7 @@ package vphong
 import (
 	"unsafe"
 
-	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 // Number of different lights active

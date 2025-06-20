@@ -7,7 +7,7 @@ package vshape
 import (
 	"math"
 
-	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 // Torus is a torus mesh, defined by the radius of the solid tube and the

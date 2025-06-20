@@ -9,7 +9,7 @@ import (
 	"log"
 	"math"
 
-	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 // Lines are lines rendered as long thin boxes defined by points

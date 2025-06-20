@@ -4,7 +4,7 @@
 
 package vshape
 
-import "github.com/tomas-mraz/math32"
+import "github.com/tomas-mraz/vgpu/math32"
 
 // ShapeGroup is a group of shapes -- returns summary data for shape elements
 type ShapeGroup struct {

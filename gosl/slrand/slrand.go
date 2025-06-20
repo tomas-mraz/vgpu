@@ -7,8 +7,8 @@ package slrand
 import (
 	"math"
 
-	"github.com/tomas-mraz/math32"
 	"github.com/tomas-mraz/vgpu/gosl/sltype"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 // These are Go versions of the same Philox2x32 based random number generator

@@ -18,7 +18,7 @@ import (
 
 	vk "github.com/goki/vulkan"
 	"github.com/tomas-mraz/base/iox/imagex"
-	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu/math32"
 
 	"github.com/go-gl/glfw/v3.3/glfw"
 	"github.com/tomas-mraz/vgpu"

@@ -4,7 +4,7 @@
 
 package vphong
 
-import "github.com/tomas-mraz/math32"
+import "github.com/tomas-mraz/vgpu/math32"
 
 // CameraViewMat returns the camera view matrix, based position
 // of camera facing at target position, with given up vector.

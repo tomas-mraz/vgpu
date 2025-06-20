@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/tomas-mraz/math32"
 	"github.com/tomas-mraz/vgpu/gosl/slrand"
 	"github.com/tomas-mraz/vgpu/gosl/sltype"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 //gosl:hlsl rand
