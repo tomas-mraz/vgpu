@@ -1,17 +1,16 @@
-module goki.dev/vgpu/v2
+module github.com/tomas-mraz/vgpu
 
-go 1.22
+go 1.23.0
 
-toolchain go1.22.5
+toolchain go1.24.4
 
 require (
-	cogentcore.org/core v0.3.3-0.20240831051617-88df75477149
-	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20240506104042-037f3cc74f2a
+	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20250301202403-da16c1255728
 	github.com/goki/vulkan v1.0.8
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	goki.dev/gti v0.1.32
 	goki.dev/ordmap v0.5.10
-	golang.org/x/tools v0.23.0
+	golang.org/x/tools v0.34.0
 )
 
 require (
@@ -38,14 +37,14 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	goki.dev/enums v0.9.56 // indirect
-	goki.dev/glop v0.1.9 // indirect
+	goki.dev/glop v0.1.11 // indirect
 	goki.dev/laser v0.1.34 // indirect
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa // indirect
 	golang.org/x/image v0.18.0 // indirect
-	golang.org/x/mod v0.19.0 // indirect
-	golang.org/x/net v0.27.0 // indirect
-	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/sys v0.22.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/mod v0.25.0 // indirect
+	golang.org/x/net v0.41.0 // indirect
+	golang.org/x/sync v0.15.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/text v0.26.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
