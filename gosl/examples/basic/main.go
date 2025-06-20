@@ -12,14 +12,14 @@ import (
 	"runtime"
 	"unsafe"
 
-	"cogentcore.org/core/base/timer"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/vgpu"
+	"github.com/tomas-mraz/base/timer"
+	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu"
 )
 
 // note: standard one to use is plain "gosl" which should be go install'd
 
-//go:generate ../../gosl cogentcore.org/core/math32/fastexp.go compute.go
+//go:generate ../../gosl github.com/tomas-mraz/math32/fastexp.go compute.go
 
 func init() {
 	// must lock main thread for gpu!

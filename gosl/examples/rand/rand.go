@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/vgpu/gosl/slrand"
-	"cogentcore.org/core/vgpu/gosl/sltype"
+	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu/gosl/slrand"
+	"github.com/tomas-mraz/vgpu/gosl/sltype"
 )
 
 //gosl:hlsl rand

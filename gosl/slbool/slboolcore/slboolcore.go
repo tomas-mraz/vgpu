@@ -5,8 +5,8 @@
 package slboolcore
 
 import (
-	"cogentcore.org/core/core"
-	"cogentcore.org/core/vgpu/gosl/slbool"
+	"github.com/tomas-mraz/core"
+	"github.com/tomas-mraz/vgpu/gosl/slbool"
 )
 
 func init() {

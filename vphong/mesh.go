@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"log"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/vgpu"
+	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu"
 )
 
 // Mesh records the number of elements in an indexed triangle mesh,

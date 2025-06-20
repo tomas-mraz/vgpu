@@ -8,7 +8,7 @@ import (
 	"image"
 	"sort"
 
-	"cogentcore.org/core/math32"
+	"github.com/tomas-mraz/math32"
 )
 
 // UniqSortedInts returns the ints in sorted order with only unique vals

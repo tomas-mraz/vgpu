@@ -11,10 +11,10 @@ import (
 
 	"log/slog"
 
-	"cogentcore.org/core/base/timer"
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/vgpu"
-	"cogentcore.org/core/vgpu/gosl/sltype"
+	"github.com/tomas-mraz/base/timer"
+	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu"
+	"github.com/tomas-mraz/vgpu/gosl/sltype"
 )
 
 // note: standard one to use is plain "gosl" which should be go install'd

@@ -21,9 +21,9 @@ import (
 
 	"log/slog"
 
-	"cogentcore.org/core/base/reflectx"
-	"cogentcore.org/core/vgpu/vkinit"
 	vk "github.com/goki/vulkan"
+	"github.com/tomas-mraz/base/reflectx"
+	"github.com/tomas-mraz/vgpu/vkinit"
 )
 
 // Key docs: https://gpuopen.com/learn/understanding-vulkan-objects/

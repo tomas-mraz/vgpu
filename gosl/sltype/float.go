@@ -4,7 +4,7 @@
 
 package sltype
 
-import "cogentcore.org/core/math32"
+import "github.com/tomas-mraz/math32"
 
 // Float is identical to a float32
 type Float = float32

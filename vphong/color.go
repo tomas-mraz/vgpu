@@ -9,7 +9,7 @@ import (
 	"image/color"
 	"log"
 
-	"cogentcore.org/core/math32"
+	"github.com/tomas-mraz/math32"
 )
 
 // Colors are the material colors with padding for direct uploading to shader

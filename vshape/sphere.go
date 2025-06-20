@@ -7,7 +7,7 @@ package vshape
 import (
 	"math"
 
-	"cogentcore.org/core/math32"
+	"github.com/tomas-mraz/math32"
 )
 
 // Sphere is a sphere shape (can be a partial sphere too)

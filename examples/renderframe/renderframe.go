@@ -16,13 +16,13 @@ import (
 	"time"
 	"unsafe"
 
-	"cogentcore.org/core/base/iox/imagex"
-	"cogentcore.org/core/math32"
 	vk "github.com/goki/vulkan"
+	"github.com/tomas-mraz/base/iox/imagex"
+	"github.com/tomas-mraz/math32"
 
-	"cogentcore.org/core/vgpu"
-	"cogentcore.org/core/vgpu/vdraw"
 	"github.com/go-gl/glfw/v3.3/glfw"
+	"github.com/tomas-mraz/vgpu"
+	"github.com/tomas-mraz/vgpu/vdraw"
 )
 
 type CamView struct {

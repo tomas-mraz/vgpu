@@ -10,8 +10,8 @@ import (
 	"image/draw"
 	"unsafe"
 
-	"cogentcore.org/core/math32"
-	"cogentcore.org/core/vgpu"
+	"github.com/tomas-mraz/math32"
+	"github.com/tomas-mraz/vgpu"
 )
 
 // FillRect fills given color to render target, to given region.

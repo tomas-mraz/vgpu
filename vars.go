@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"cogentcore.org/core/base/indent"
-	"cogentcore.org/core/vgpu/szalloc"
+	"github.com/tomas-mraz/base/indent"
+	"github.com/tomas-mraz/vgpu/szalloc"
 
 	vk "github.com/goki/vulkan"
 )

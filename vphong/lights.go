@@ -7,7 +7,7 @@ package vphong
 import (
 	"unsafe"
 
-	"cogentcore.org/core/math32"
+	"github.com/tomas-mraz/math32"
 )
 
 // Number of different lights active

@@ -4,7 +4,7 @@
 
 package main
 
-import "cogentcore.org/core/math32"
+import "github.com/tomas-mraz/math32"
 
 //gosl:hlsl basic
 // #include "fastexp.hlsl"

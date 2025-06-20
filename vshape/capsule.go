@@ -4,7 +4,7 @@
 
 package vshape
 
-import "cogentcore.org/core/math32"
+import "github.com/tomas-mraz/math32"
 
 // Capsule is a generalized capsule shape: a cylinder with hemisphere end caps.
 // Supports different radii on each end.

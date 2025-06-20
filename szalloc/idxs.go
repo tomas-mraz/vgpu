@@ -7,7 +7,7 @@ package szalloc
 import (
 	"image"
 
-	"cogentcore.org/core/math32"
+	"github.com/tomas-mraz/math32"
 )
 
 // Indexes contains the indexes where a given item image size is allocated

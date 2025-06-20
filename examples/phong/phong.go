@@ -16,13 +16,13 @@ import (
 	"runtime"
 	"time"
 
-	"cogentcore.org/core/math32"
 	vk "github.com/goki/vulkan"
+	"github.com/tomas-mraz/math32"
 
-	"cogentcore.org/core/vgpu"
-	"cogentcore.org/core/vgpu/vphong"
-	"cogentcore.org/core/vgpu/vshape"
 	"github.com/go-gl/glfw/v3.3/glfw"
+	"github.com/tomas-mraz/vgpu"
+	"github.com/tomas-mraz/vgpu/vphong"
+	"github.com/tomas-mraz/vgpu/vshape"
 )
 
 func init() {

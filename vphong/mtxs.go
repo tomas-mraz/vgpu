@@ -7,7 +7,7 @@ package vphong
 import (
 	"unsafe"
 
-	"cogentcore.org/core/math32"
+	"github.com/tomas-mraz/math32"
 )
 
 // Mtxs contains the camera view and projection matricies, for uniform uploading
