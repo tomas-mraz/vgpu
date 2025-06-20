@@ -5,7 +5,7 @@
 package slboolcore
 
 import (
-	"github.com/tomas-mraz/core"
+	"cogentcore.org/core"
 	"github.com/tomas-mraz/vgpu/gosl/slbool"
 )
 

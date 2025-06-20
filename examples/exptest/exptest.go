@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/tomas-mraz/math32"
 	"github.com/tomas-mraz/vgpu"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 func init() {

@@ -14,8 +14,8 @@ import (
 	vk "github.com/goki/vulkan"
 
 	"github.com/go-gl/glfw/v3.3/glfw"
-	"github.com/tomas-mraz/math32"
 	"github.com/tomas-mraz/vgpu"
+	"github.com/tomas-mraz/vgpu/math32"
 )
 
 func init() {

@@ -6,6 +6,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/tomas-mraz/vgpu/math32"
 	"image"
 	"image/color"
 	_ "image/jpeg"
@@ -17,7 +18,6 @@ import (
 	"time"
 
 	vk "github.com/goki/vulkan"
-	"github.com/tomas-mraz/math32"
 
 	"github.com/go-gl/glfw/v3.3/glfw"
 	"github.com/tomas-mraz/vgpu"
