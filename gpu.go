@@ -22,7 +22,7 @@ import (
 	"log/slog"
 
 	vk "github.com/goki/vulkan"
-	"github.com/tomas-mraz/base/reflectx"
+	"github.com/tomas-mraz/vgpu/base/reflectx"
 	"github.com/tomas-mraz/vgpu/vkinit"
 )
 
