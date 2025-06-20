@@ -9,7 +9,7 @@ package vgpu
 import (
 	"github.com/go-gl/glfw/v3.3/glfw"
 	vk "github.com/goki/vulkan"
-	"github.com/tomas-mraz/base/errors"
+	"github.com/tomas-mraz/vgpu/base/errors"
 )
 
 // note: this file contains the glfw dependencies, for desktop platform builds
