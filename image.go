@@ -15,9 +15,9 @@ import (
 
 	"cogentcore.org/core/base/iox/imagex"
 	"cogentcore.org/core/base/slicesx"
-	"cogentcore.org/core/enums"
 	"cogentcore.org/core/math32"
 	vk "github.com/goki/vulkan"
+	"github.com/tomas-mraz/vgpu/enums"
 )
 
 // SRGBToLinearComp converts an sRGB rgb component to linear space (removes gamma).

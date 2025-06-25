@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"cogentcore.org/core/cli"
-	"cogentcore.org/core/enums"
-	"cogentcore.org/core/enums/enumgen/testdata"
 	"github.com/stretchr/testify/assert"
+	"github.com/tomas-mraz/vgpu/enums"
+	"github.com/tomas-mraz/vgpu/enums/enumgen/testdata"
 )
 
 func TestGenerate(t *testing.T) {

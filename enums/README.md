@@ -7,7 +7,7 @@ Enums provides utilities for creating and using enumerated types in Go. There ar
 Enumgen generates code for enumerated types that aids in various operations with them, including printing, setting, and marshalling. Enumgen is based on [dmarkham/enumer](https://github.com/dmarkham/enumer) and [stringer](https://pkg.go.dev/golang.org/x/tools/cmd/stringer). To install enumgen, run:
 
 ```sh
-go install cogentcore.org/core/enums/cmd/enumgen@latest
+go install github.com/tomas-mraz/vgpu/enums/cmd/enumgen@latest
 ```
 
 Then, in any package you have enums, add *one* `go:generate` line at the top of a file (**only** one per package):
