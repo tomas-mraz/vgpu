@@ -8,7 +8,7 @@ import (
 	"math"
 
 	"cogentcore.org/core/math32"
-	"cogentcore.org/core/vgpu/gosl/sltype"
+	"github.com/tomas-mraz/vgpu/gosl/sltype"
 )
 
 // These are Go versions of the same Philox2x32 based random number generator

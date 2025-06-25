@@ -16,7 +16,7 @@ import (
 	"os"
 	"strings"
 
-	"cogentcore.org/core/vgpu/gosl/slprint"
+	"github.com/tomas-mraz/vgpu/gosl/slprint"
 )
 
 // flags

@@ -9,11 +9,11 @@ import (
 	"runtime"
 
 	"cogentcore.org/core/math32"
-	"cogentcore.org/core/vgpu"
+	"github.com/tomas-mraz/vgpu"
 )
 
 func init() {
-	// must lock main thread for gpu!
+	// must lock the main thread for gpu!
 	runtime.LockOSThread()
 }
 

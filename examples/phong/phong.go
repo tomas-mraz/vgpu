@@ -5,6 +5,7 @@
 package main
 
 import (
+	"cogentcore.org/core/math32"
 	"fmt"
 	"image"
 	"image/color"
@@ -16,17 +17,16 @@ import (
 	"runtime"
 	"time"
 
-	"cogentcore.org/core/math32"
 	vk "github.com/goki/vulkan"
 
-	"cogentcore.org/core/vgpu"
-	"cogentcore.org/core/vgpu/vphong"
-	"cogentcore.org/core/vgpu/vshape"
 	"github.com/go-gl/glfw/v3.3/glfw"
+	"github.com/tomas-mraz/vgpu"
+	"github.com/tomas-mraz/vgpu/vphong"
+	"github.com/tomas-mraz/vgpu/vshape"
 )
 
 func init() {
-	// must lock main thread for gpu!
+	// must lock the main thread for gpu!
 	runtime.LockOSThread()
 }
 

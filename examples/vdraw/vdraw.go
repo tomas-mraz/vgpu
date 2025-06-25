@@ -20,13 +20,13 @@ import (
 
 	vk "github.com/goki/vulkan"
 
-	"cogentcore.org/core/vgpu"
-	"cogentcore.org/core/vgpu/vdraw"
 	"github.com/go-gl/glfw/v3.3/glfw"
+	"github.com/tomas-mraz/vgpu"
+	"github.com/tomas-mraz/vgpu/vdraw"
 )
 
 func init() {
-	// must lock main thread for gpu!
+	// must lock the main thread for gpu!
 	runtime.LockOSThread()
 }
 

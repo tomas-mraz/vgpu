@@ -3,7 +3,7 @@
 package vgpu
 
 import (
-	"cogentcore.org/core/enums"
+	"github.com/tomas-mraz/vgpu/enums"
 )
 
 var _ImageFlagsValues = []ImageFlags{0, 1, 2, 3, 4, 5, 6, 7}

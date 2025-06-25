@@ -10,10 +10,10 @@ import (
 	"log"
 	"unsafe"
 
-	"cogentcore.org/core/enums"
 	"cogentcore.org/core/math32"
-	"cogentcore.org/core/vgpu/szalloc"
 	vk "github.com/goki/vulkan"
+	"github.com/tomas-mraz/vgpu/enums"
+	"github.com/tomas-mraz/vgpu/szalloc"
 )
 
 // Value represents a specific value of a Var variable.
